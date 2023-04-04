@@ -41,7 +41,7 @@
       },
       {
         "label": "Check Contract Balance",
-        "command": ".vscode/contract-balance.sh",
+        "command": "scripts/contract-balance.sh",
         "presentation": {
           "panel": "shared",
           "group": "cabal"
@@ -49,7 +49,7 @@
       },
       {
         "label": "Check Dev Wallet Balance",
-        "command": ".vscode/wallet1-balance.sh",
+        "command": "scripts/wallet1-balance.sh",
         "presentation": {
           "panel": "shared",
           "group": "cabal"
@@ -57,7 +57,8 @@
       },
       {
         "label": "New Dev Wallet",
-        "command": ".vscode/new-dev-wallet.sh",
+        "command": "scripts/new-dev-wallet.sh",
+        "args": ["wallet1"],
         "presentation": {
           "panel": "shared",
           "group": "cabal"
@@ -65,7 +66,7 @@
       },
       {
         "label": "Download Protocol Paramters",
-        "command": ".vscode/download-params.sh",
+        "command": "scripts/download-params.sh",
         "presentation": {
           "panel": "shared",
           "group": "cabal",
